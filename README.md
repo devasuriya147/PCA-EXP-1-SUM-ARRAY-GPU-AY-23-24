@@ -29,6 +29,7 @@ Google Colab with NVCC Compiler
 6. Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
 
 ## PROGRAM:
+1.
 ```
 %%cuda
 #include <cuda_runtime.h>
@@ -278,6 +279,7 @@ int main(int argc, char **argv)
 <img width="852" height="218" alt="Screenshot 2026-10-27 144630" src="https://github.com/user-attachments/assets/165a0714-4bb8-4909-8d65-148dad4af1f9" />
 
 
+2.
 ```
 %%cuda
 #include <cuda_runtime.h>
@@ -527,7 +529,7 @@ int main(int argc, char **argv)
 <img width="892" height="270" alt="Screenshot 2026-10-27 144536" src="https://github.com/user-attachments/assets/46b82c68-3825-4b81-a15d-5650ec19f0ea" />
 
 
-
+3.
 ```
 %%cuda
 #include <cuda_runtime.h>
